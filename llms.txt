@@ -1,0 +1,43 @@
+# MoJion AI
+
+> Custom AI voice agents and workflow automations for businesses. Built on Vapi + n8n. Production-grade, client-owned systems with no vendor lock-in.
+
+MoJion AI is an AI automation agency founded in July 2025 by Matthew Lingle and Jeffrey Alte, based in Orlando, Florida. We build custom AI voice agents and end-to-end workflow automations for small and mid-sized businesses that want production-grade systems they own outright.
+
+## What we do
+- AI voice agents (Vapi-based receptionists, sales, outbound)
+- Workflow automation (n8n, human-in-the-loop via Slack, CRM integration)
+- Lead intelligence (enrich, score, route)
+- AI consulting and architecture review
+
+## Industries we serve
+- Home services and moving
+- Equipment dealers
+- E-commerce
+- Healthcare (HIPAA-ready patterns)
+
+## Differentiators
+- Client ownership: you own the code, prompts, workflows, and integrations. No vendor lock-in.
+- Architecture discipline: AI is restricted to language and classification; deterministic workflows enforce business outcomes. Failures are isolated and auditable.
+- Accountability: E&O insured. Structured logging, human-in-the-loop escalation, and recording consent are first-class design behaviors, not afterthoughts.
+- Compliance posture: GDPR, CCPA, HIPAA-ready.
+
+## Engagement model
+- Discovery: ~2 days
+- Design and prototype: ~3 days
+- Build and integration: ~1 week
+- Launch and 2-week supervised live period
+- Typical end-to-end: 2 to 4 weeks
+
+## Pricing
+Every engagement is scoped per-client because outcomes, integrations, and compliance needs vary. We do not publish public price tiers. After a free Discovery call, we send a fixed-scope quote tied to the outcomes the client wants.
+
+## Named clients (public)
+- Undergrads Moving (multi-agent voice system)
+- Big Man's Moving (single voice agent)
+
+## Contact
+- Website: https://www.mojionai.com/
+- Email: MoJionvoice@gmail.com
+- LinkedIn: https://www.linkedin.com/company/mojion-ai/
+- HQ: Orlando, FL 32826, USA
