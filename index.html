@@ -18,6 +18,13 @@
 <meta property="og:description" content="Custom AI voice agents and workflow automation for businesses. 10,000+ calls handled monthly, 85% resolved without a human. Book a free call.">
 <meta property="og:url" content="https://www.mojionai.com/">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://www.mojionai.com/mojion-logo.png">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mojion AI | Custom AI Voice Agents & Automation for Business">
+<meta name="twitter:description" content="Custom AI voice agents and workflow automation for businesses. 10,000+ calls handled monthly, 85% resolved without a human. Book a free call.">
+<meta name="twitter:image" content="https://www.mojionai.com/mojion-logo.png">
 
 <!-- Structured data: Organization -->
 <script type="application/ld+json">
@@ -35,9 +42,16 @@
     { "@type": "Person", "name": "Jeffrey Alte" }
   ],
   "email": "MoJionvoice@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Orlando",
+    "addressRegion": "FL",
+    "postalCode": "32826",
+    "addressCountry": "US"
+  },
   "areaServed": { "@type": "Country", "name": "United States" },
   "sameAs": [
-    "https://www.linkedin.com/company/111017161/"
+    "https://www.linkedin.com/company/mojion-ai/"
   ]
 }
 </script>
@@ -54,6 +68,72 @@
   "serviceType": ["AI Voice Agent Development", "Workflow Automation", "AI Consulting", "Custom AI Integration"],
   "areaServed": { "@type": "Country", "name": "United States" },
   "url": "https://www.mojionai.com/"
+}
+</script>
+
+<!-- Structured data: FAQ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it take to build a custom AI voice agent?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most engagements ship in 2 to 4 weeks. Our standard phases are Discovery (about 2 days), Design and Prototype (about 3 days), Build and Integration (about 1 week), and Launch and Monitoring (a 2-week supervised live period)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I own the AI voice agent you build?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We design every engagement so the client owns the code, prompts, workflows, and integrations. No vendor lock-in, no surprise licensing. You can choose monthly hosting and monitoring or a full buyout with optional maintenance."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What does a custom AI receptionist cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pricing is project-scoped because every business has different call volume, integrations, and compliance needs. Smaller automations start around $500. Larger receptionist or multi-agent systems are quoted per engagement after a free Discovery call."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How is a custom MoJion build different from Synthflow, Smith.ai, or Frontdesk?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Three differences. First, you own the system. We don't rent you a seat on our platform. Second, our architecture restricts the AI to language and classification while deterministic workflows enforce business outcomes, so failures are isolated and auditable. Third, accountability is built in. E&O insurance, structured logging, and human-in-the-loop escalation are first-class behaviors, not afterthoughts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is your AI HIPAA-compliant?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our build patterns are HIPAA-ready: BAA-eligible vendor selection, PHI minimization, audit logging, and access controls. Final compliance depends on your specific data flows, which we map during Discovery."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What happens when the AI can't handle a call?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Escalation is designed in from day one. The agent transfers to a human, triggers a Slack alert with the full call context and recording, or schedules a callback, depending on the use case. The AI never silently fails."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which CRMs and tools do you integrate with?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Anything with an API. HubSpot is our most common CRM integration. We also routinely connect to Google Sheets, Slack, Twilio, Stripe, calendar systems, and custom databases through n8n."
+      }
+    }
+  ]
 }
 </script>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -1348,6 +1428,64 @@ nav.scrolled {
   background: #2471A3;
 }
 
+/* ========== FAQ ========== */
+#faq {
+  background: #F8FAFC;
+}
+
+#faq .container {
+  max-width: 900px;
+}
+
+#faq h2 {
+  margin-bottom: 3rem;
+}
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.faq-item {
+  background: #FFFFFF;
+  border: 1px solid rgba(36, 113, 163, 0.12);
+  border-radius: 14px;
+  padding: 1.75rem 2rem;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.faq-item:hover {
+  border-color: rgba(36, 113, 163, 0.3);
+  box-shadow: 0 8px 24px rgba(36, 113, 163, 0.08);
+  transform: translateY(-2px);
+}
+
+.faq-item h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #1A1A2E;
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+
+.faq-item p {
+  font-size: 15.5px;
+  color: #4B5563;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+@media (max-width: 640px) {
+  .faq-item {
+    padding: 1.5rem 1.25rem;
+  }
+  .faq-item h3 {
+    font-size: 1.05rem;
+  }
+}
+
 /* ========== COMMITMENT ========== */
 #commitment {
   background: #0F0F1A;
@@ -1989,7 +2127,7 @@ footer {
       <p class="section-label">About Us</p>
       <h2>Who We Are</h2>
       <p>
-        MoJion AI was founded in 2025 by Matthew Lingle and Jeffery Alte,
+        MoJion AI was founded in 2025 by Matthew Lingle and Jeffrey Alte,
         two builders who saw that most small businesses were either being sold
         overpriced enterprise software or cheap tools that never quite worked.
         We build custom AI voice agents and workflow automations for businesses
@@ -2009,7 +2147,7 @@ footer {
         <div class="founder-pill">
           <div class="founder-avatar">JA</div>
           <div class="founder-info">
-            <div class="founder-name">Jeffery Alte</div>
+            <div class="founder-name">Jeffrey Alte</div>
             <div class="founder-role">Co-Founder</div>
           </div>
         </div>
@@ -2070,15 +2208,15 @@ footer {
     </div>
     <div class="stats-grid">
       <div class="stat-item reveal reveal-delay-1">
-        <div class="stat-number" data-target="10000" data-suffix="+">0</div>
+        <div class="stat-number" data-target="10000" data-suffix="+">10,000+</div>
         <div class="stat-label">Calls Handled Monthly</div>
       </div>
       <div class="stat-item reveal reveal-delay-2">
-        <div class="stat-number" data-target="85" data-suffix="%">0</div>
+        <div class="stat-number" data-target="85" data-suffix="%">85%</div>
         <div class="stat-label">Of Calls Resolved Without a Human</div>
       </div>
       <div class="stat-item reveal reveal-delay-3">
-        <div class="stat-number" data-target="40" data-suffix="%">0</div>
+        <div class="stat-number" data-target="40" data-suffix="%">40%</div>
         <div class="stat-label">Average Cost Savings</div>
       </div>
       <div class="stat-item reveal reveal-delay-4">
@@ -2348,6 +2486,46 @@ footer {
   </div>
 </section>
 
+<!-- ========== FAQ ========== -->
+<section id="faq">
+  <div class="container">
+    <div class="text-center reveal">
+      <p class="section-label">FAQ</p>
+      <h2>Frequently Asked Questions</h2>
+    </div>
+    <div class="faq-list reveal" style="text-align: left;">
+      <div class="faq-item">
+        <h3>How long does it take to build a custom AI voice agent?</h3>
+        <p>Most engagements ship in 2 to 4 weeks. Our standard phases are Discovery (about 2 days), Design and Prototype (about 3 days), Build and Integration (about 1 week), and Launch and Monitoring (a 2-week supervised live period).</p>
+      </div>
+      <div class="faq-item">
+        <h3>Do I own the AI voice agent you build?</h3>
+        <p>Yes. We design every engagement so the client owns the code, prompts, workflows, and integrations. No vendor lock-in, no surprise licensing. You can choose monthly hosting and monitoring or a full buyout with optional maintenance.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What does a custom AI receptionist cost?</h3>
+        <p>Pricing is project-scoped because every business has different call volume, integrations, and compliance needs. Smaller automations start around $500. Larger receptionist or multi-agent systems are quoted per engagement after a free Discovery call.</p>
+      </div>
+      <div class="faq-item">
+        <h3>How is a custom MoJion build different from Synthflow, Smith.ai, or Frontdesk?</h3>
+        <p>Three differences. First, you own the system &mdash; we don't rent you a seat on our platform. Second, our architecture restricts the AI to language and classification while deterministic workflows enforce business outcomes, so failures are isolated and auditable. Third, accountability is built in: E&amp;O insurance, structured logging, and human-in-the-loop escalation are first-class behaviors, not afterthoughts.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Is your AI HIPAA-compliant?</h3>
+        <p>Our build patterns are HIPAA-ready: BAA-eligible vendor selection, PHI minimization, audit logging, and access controls. Final compliance depends on your specific data flows, which we map during Discovery.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What happens when the AI can't handle a call?</h3>
+        <p>Escalation is designed in from day one. The agent transfers to a human, triggers a Slack alert with the full call context and recording, or schedules a callback &mdash; depending on the use case. The AI never silently fails.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Which CRMs and tools do you integrate with?</h3>
+        <p>Anything with an API. HubSpot is our most common CRM integration. We also routinely connect to Google Sheets, Slack, Twilio, Stripe, calendar systems, and custom databases through n8n.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ========== COMMITMENT ========== -->
 <section id="commitment">
   <div class="container text-center">
@@ -2576,6 +2754,13 @@ revealElements.forEach(el => revealObserver.observe(el));
 // ==========================================
 const statNumbers = document.querySelectorAll('.stat-number[data-target]');
 let statsAnimated = false;
+
+// Crawlers (no JS) read the hardcoded final values from HTML.
+// JS users get the animation: reset to "0{suffix}" on load, then animate up on scroll-into-view.
+statNumbers.forEach(el => {
+  const suffix = el.dataset.suffix || '';
+  el.textContent = '0' + suffix;
+});
 
 function animateCounters() {
   if (statsAnimated) return;
