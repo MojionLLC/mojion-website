@@ -32,10 +32,6 @@ MoJion AI is an AI automation agency founded in July 2025 by Matthew Lingle and 
 ## Pricing
 Every engagement is scoped per-client because outcomes, integrations, and compliance needs vary. We do not publish public price tiers. After a free Discovery call, we send a fixed-scope quote tied to the outcomes the client wants.
 
-## Named clients (public)
-- Undergrads Moving (multi-agent voice system)
-- Big Man's Moving (single voice agent)
-
 ## Contact
 - Website: https://www.mojionai.com/
 - Email: MoJionvoice@gmail.com
